@@ -11,6 +11,7 @@ import com.team.cloudsharing.User;
 
 @RestController
 public class UserController {
+	
 	Map<Integer, User> empData = new HashMap<Integer, User>();
 	
 	@RequestMapping(value = "/createUser", method = RequestMethod.GET)
