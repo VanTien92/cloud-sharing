@@ -36,12 +36,13 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 
-	    User user = new User("vantien.sn92@gmail.com","Van Tien","123456");
+	    /*User user = new User("vantien.sn92@gmail.com","Van Tien","123456");
 	    userDAO.insert(user);
 	 
 	    User user1 = userDAO.findByUserId(1);
 	    System.out.println(user1);
-	    return user1.toString();
+	    return user1.toString();*/
+		return "home";
 	}
 
 	/*@RequestMapping(value = "/login", method = RequestMethod.GET)
